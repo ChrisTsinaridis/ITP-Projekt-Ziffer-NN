@@ -1,7 +1,7 @@
 
 <img src="/Assets/Images/Logo.jpg"
      alt="Firmenlogo"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px; height: 100px; width: 100px;" />
 
 <p>
 Wir sind ein in Deutschland basierendes Start-Up mit dem Namen Digitection.
