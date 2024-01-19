@@ -1,0 +1,3 @@
+ultralytics==8.0.230
+opencv-python
+gradio==3.50
