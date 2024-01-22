@@ -1,58 +1,58 @@
 <mxfile host="65bd71144e">
     <diagram id="-Igwp5Z4mSeUZu4hsjyd" name="Page-1">
-        <mxGraphModel dx="886" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1229" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="19" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="2" target="16">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="2" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Öffnen von Software" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+                <mxCell id="2" value="Öffnen von Software" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" parent="1" vertex="1">
                     <mxGeometry x="70" y="140" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="6" target="10">
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Fragebogen an Neuronales Netz senden" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;labelBackgroundColor=none;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;Fragebogen an Neuronales Netz senden&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;labelBackgroundColor=none;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="425" y="125" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="9" target="20">
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="9" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Neuronales Netz wertet Fragebogen aus" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=script;labelBackgroundColor=none;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;Neuronales Netz wertet Fragebogen aus&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=script;labelBackgroundColor=none;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="765" y="125" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="10" target="9">
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="10" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Neuronales Netz hat&lt;br&gt;Fragebogen empfangen" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="10" value="Neuronales Netz hat&lt;br&gt;Fragebogen empfangen" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="630" y="140" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="16" target="6">
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="16" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Fotografieren von Fragebogen" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;labelBackgroundColor=none;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;Fotografieren von Fragebogen&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;labelBackgroundColor=none;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="210" y="125" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="20" target="23">
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="20" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Ausgewertete Daten werden an Sotfware geschickt" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;labelBackgroundColor=none;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="20" value="&lt;font color=&quot;#000000&quot;&gt;Ausgewertete Daten werden an Sotfware geschickt&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;labelBackgroundColor=none;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="960" y="125" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="22" target="27">
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="22" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="Anzeigen der Ergebnisse in der Software" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;labelBackgroundColor=none;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="22" value="&lt;font color=&quot;#000000&quot;&gt;Anzeigen der Ergebnisse in der Software&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;labelBackgroundColor=none;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="1320" y="125" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" edge="1" parent="1" source="23" target="22">
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontColor=#ffebeb;" parent="1" source="23" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Software hat ausgewertete&lt;br&gt;Daten von Neruonalem Netz erhalten" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="23" value="&lt;font color=&quot;#000000&quot;&gt;Software hat ausgewertete&lt;br&gt;Daten von Neruonalem Netz erhalten&lt;/font&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=message;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="140" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Benutzter hat Ereniss &lt;br&gt;erhalten" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fontColor=#ffebeb;" vertex="1" parent="1">
+                <mxCell id="27" value="&lt;font color=&quot;#000000&quot;&gt;Benutzter hat Ereniss &lt;br&gt;erhalten&lt;/font&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fontColor=#ffebeb;" parent="1" vertex="1">
                     <mxGeometry x="1500" y="140" width="50" height="50" as="geometry"/>
                 </mxCell>
             </root>
