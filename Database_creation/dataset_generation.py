@@ -2,11 +2,15 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import os
 
-os.makedirs("xo_dataset", exist_ok=True)
+# Erstellt einen Ordner namens "xo_dataset", wenn er nicht existiert. Der Ordner wird verwendet, um die generierten Bilder zu speichern.
+os.makedirs("xo_dataset", exist_ok=True) 
+
+
 
 def create_box_with_X(number):
+   # Diese Funktion erstellt eine bestimmte Anzahl von Bildern mit einer Box und möglicherweise einem "X" darin.
    for i in range(number):
-      # Pfad zur handschriftlichen Schriftart (ersetzen Sie dies durch den Pfad Ihrer eigenen Schriftart)
+      # Eine Liste von Pfaden zu verschiedenen handschriftlichen Schriftarten. 
       font_list = ["Database_creation/ttf/Autography.otf",
                   "Database_creation/ttf/Callheart.ttf",
                   "Database_creation/ttf/Clear Brain.ttf",
@@ -21,33 +25,34 @@ def create_box_with_X(number):
                   "Database_creation/ttf/Windpath.ttf"
                   ]
          
-       
+      # Wählt zufällig eine Schriftart aus der Liste aus.
       font_path = random.choice(font_list)
 
-       # Festlegen der Bildgröße
+      # Festlegen der Bildgröße auf 500x500 Pixel.
       image_size = (500, 500)
 
-      # Berechnen der Boxgröße als 10% kleiner als die Bildgröße
-      box_padding = int(image_size[0] * 0.1)  # 10% Padding
+      # Berechnet die Größe der Box, indem von jeder Seite des Bildes ein Abstand (Padding) eingehalten wird.
+      box_padding = int(image_size[0] * 0.15)  # 15% Padding
       box_size = (box_padding, box_padding, image_size[0] - box_padding, image_size[1] - box_padding)
 
-      # Erstelle ein weißes Bild
+      # Erstellt ein neues Bild mit weißem Hintergrund.
       image = Image.new('RGB', image_size, 'white')
       draw = ImageDraw.Draw(image)
 
-      # Zeichne eine Box
+      # Zeichnet eine rechteckige Box auf das Bild.
       draw.rectangle(box_size, outline='black', width=2)
 
+      # Entscheidet zufällig, ob ein "X" gezeichnet werden soll oder nicht.
       draw_x = random.choice([True, False])
 
-      # Lade die handschriftliche Schriftart
+
       if draw_x:
          # Die Schriftgröße wird auf 80% der Boxbreite gesetzt
          font_size = int((box_size[2] - box_size[0]) * 1)
          font = ImageFont.truetype(font_path, font_size)
 
-         # Generiere eine zufällige Position für das "X" innerhalb des Kästchens
-         padding = int(font_size * 0.3)  # 10% der Schriftgröße als Rand für das "X"
+         # Erstellen von Randparameter in dem das "X" plaziert werden darf. 
+         padding = int(font_size * 0.3)  # 30% der Schriftgröße als Rand für das "X"
          x_min = box_size[0] + padding
          y_min = box_size[1] + padding
          x_max = box_size[2] - padding
@@ -57,11 +62,12 @@ def create_box_with_X(number):
          x_random = random.randint(x_min, x_max)
          y_random = random.randint(y_min, y_max)
 
-         # Zeichne das "X" an der zufälligen Position
+         # Zeichnet das "X" an der zufälligen Position innerhalb der Box.
          draw.text((x_random, y_random), "X", font=font, fill='black', anchor="mm")
 
-      # Speichere das Bild
+      # Speichert das Bild im Ordner "xo_dataset" mit einer fortlaufenden Nummerierung.
       image_filename = f"xo_dataset/{i+1}.png"
       image.save(image_filename)
 
+# Ruft die Funktion auf, um 100 Bilder zu erstellen.
 create_box_with_X(100)
