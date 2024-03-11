@@ -1,3 +1,4 @@
+# Erstellet von IFD12B von Christos Tsinaridis und Paul Wickenheiser
 from PIL import Image, ImageDraw, ImageFont
 import random
 import os
